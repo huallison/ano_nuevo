@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    flex-direction: column;
+
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 18px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.perfil{
+    background-color: #070d12;
+    width: 370px;
+    border: 3px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 20px;
+
+}
+
+.perfil .info{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil .info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid #02d08f;
+}
+
+.perfil .info .nome{
+    font-size: 26px;
+}
+
+.perfil .conteudo{
+    margin-top: 15px;
+}
+
+.perfil .abas{
+    display: flex;
+}
+
+.perfil .info-abas{
+    background-color: #262626;
+}
+
+
+.info-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: block;
+
+}
+
+
+.info-abas .sub-titulo{
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;    
+}
+
+.info-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+
+.descricao img{
+    width: 200px;
+}
+
+
+@media screen and (max-width: 700px){
+    .perfil{
+
+        width: 320px;
+    
+    }
+}

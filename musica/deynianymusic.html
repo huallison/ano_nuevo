@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica 🎶</title>
+    <link rel="stylesheet" href="musica.css">
+</head>
+<body>
+    <div class="img">
+        <img src="../img_music/deynianymusic.jpg" id="audio1">
+    </div>
+    
+    <div class="estrela">
+        <img src="../img_music/estrela.png" alt="">
+        <img src="../img_music/estrela.png" alt="">
+
+    </div>
+
+
+    <script>
+        var audio = new Audio('../img_music/Ember Island - Umbrella (Tradução_Legendado)(MP3_160K).mp3');
+        var k1 = document.getElementById("audio1");
+        k1.addEventListener('click', function(){
+            audio.play();
+        })
+
+    </script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 var button = document.getElementById("button")
 
-var lista = [['RAY', 'CAIXA-DE-CHOCOLATE'], ['LIVIA', 'BEST'], ['ANDERSON', 'ODA-PAL-NO-CU'], ['DEYNIANY', 'MIGA'], 
+var lista = [['RAY', 'CAIXA-DE-CHOCOLATE'], ['LIVIA', 'BEST'], ['ANDERSON', 'ODA-PAU-NO-CU'], ['DEYNIANY', 'MIGA'], 
             ['CAMILA', 'FOGO-NA-COZINHA'], ['VIH', 'YAOI-NAO'], ['NATY', 'NAO-SEJA-TROUXA'], ['KAILANE', 'NAOTEMSENHA']]
 button.addEventListener("click", function() {
     enviar(lista)
